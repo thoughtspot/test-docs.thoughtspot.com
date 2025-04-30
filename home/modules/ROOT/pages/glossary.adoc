@@ -1,0 +1,6 @@
+= Glossary
+:page-rendering-rank: 10
+
+The glossary entries are likely to be present as, due to the page name, this page is likely to be rendered last.
+
+glossary::[]
