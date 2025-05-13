@@ -1,0 +1,602 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/software/latest/:path*",
+      "destination": "/software/10.1.0.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/:path*",
+      "destination": "/cloud/10.8.0.cl/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/cloud",
+      "destination": "/cloud/10.6.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.9.0.cl/notes",
+      "destination": "/cloud/10.6.0.cl/notes",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.4.0.cl/notes",
+      "destination": "https://docs.thoughtspot.com/cloud/10.6.0.cl/notes#_thoughtspot_10_4_0_cl",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/",
+      "destination": "/cloud/10.8.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/software",
+      "destination": "/software/10.1.0.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/mobile",
+      "destination": "/mobile/4.0.0/",
+      "statusCode": 301 },
+    {
+      "source": "/mobile/latest/:path*",
+      "destination": "/mobile/4.0.0/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/mobile/latest",
+      "destination": "/mobile/4.0.0/",
+      "statusCode": 301 },
+    {
+      "source": "/mobile/latest/",
+      "destination": "/mobile/4.0.0/",
+      "statusCode": 301 },
+    {
+      "source": "/mobile/4.0.0",
+      "destination": "/mobile/4.0.0/",
+      "statusCode": 301 },
+    {
+      "source": "/mobile/3.3.0",
+      "destination": "/mobile/3.3.0/",
+      "statusCode": 301 },
+    {
+      "source": "/mobile/3.0.0",
+      "destination": "/mobile/3.0.0/",
+      "statusCode": 301 },
+    {
+      "source": "/seekwell",
+      "destination": "/seekwell/current/",
+      "statusCode": 301 },
+    {
+      "source": "/seekwell/current",
+      "destination": "/seekwell/current/",
+      "statusCode": 301 },
+    {
+      "source": "/spotter/latest",
+      "destination": "/spotter/latest/",
+      "statusCode": 301 },
+    {
+      "source": "/spotter",
+      "destination": "/spotter/1.0.0.cp/",
+      "statusCode": 301 },
+    {
+      "source": "/spotter/latest/",
+      "destination": "/spotter/1.0.0.cp/",
+      "statusCode": 301 },
+    {
+      "source": "/spotter/latest/:path*",
+      "destination": "/spotter/1.0.0.cp/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.5.0.cl/connection-config",
+      "destination": "/cloud/10.5.0.cl/connections-snowflake-add#additional-configurations-create",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.6.0.cl/connection-config",
+      "destination": "/cloud/10.6.0.cl/connections-snowflake-add#additional-configurations-create",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.8.0.cl/connection-config",
+      "destination": "/cloud/10.8.0.cl/connections-snowflake-add#additional-configurations-create",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/schedule-new-experience",
+      "destination": "/cloud/10.6.0.cl/liveboard-schedule#_scheduling_a_liveboard",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/spotter-training-steps",
+      "destination": "/spotter/1.0.0.cp/spotter-coach",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.6.0.cl/spotter-training-steps",
+      "destination": "/spotter/1.0.0.cp/spotter-coach",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/liveboard-schedules-homepage",
+      "destination": "/cloud/10.8.0.cl/thoughtspot-homepage",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.6.0.cl/new-pivot-table",
+      "destination": "/cloud/10.6.0.cl/chart-pivot-table#pivot-table-2-0",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/notes#10-3-0-cl-developer",
+      "destination": "https://developers.thoughtspot.com/docs/selective-user-access",
+      "statusCode": 301 },
+    {
+      "source": "/software/10.1.0.sw/table-join",
+      "destination": "/software/10.1.0.sw/relationship-create#table-join-new",
+      "statusCode": 301 },
+    {
+      "source": "/software/10.1.0.sw/connection-config",
+      "destination": "/software/10.1.0.sw/connections-snowflake-add#additional-configurations-create",
+      "statusCode": 301 },
+    {
+      "source": "/mobile/3.0.0",
+      "destination": "/mobile/3.0.0/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.8.1.cl",
+      "destination": "/cloud/10.8.1.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.8.1.cl/spotter-change-analysis",
+      "destination": "/cloud/latest/spotter",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.8.1.cl/notes",
+      "destination": "/cloud/latest/notes",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.8.0.cl",
+      "destination": "/cloud/10.8.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.6.0.cl",
+      "destination": "/cloud/10.6.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.5.0.cl",
+      "destination": "/cloud/10.5.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.4.0.cl",
+      "destination": "/cloud/10.4.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.3.0.cl",
+      "destination": "/cloud/10.3.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.1.0.cl",
+      "destination": "/cloud/10.1.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.0.0.cl",
+      "destination": "/cloud/10.0.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.12.5.cl",
+      "destination": "/cloud/9.12.5.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.12.0.cl",
+      "destination": "/cloud/9.12.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest",
+      "destination": "/cloud/10.8.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.10.5.cl",
+      "destination": "/cloud/9.10.5.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.10.0.cl",
+      "destination": "/cloud/9.10.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.9.0.cl",
+      "destination": "/cloud/9.9.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.6.0.cl",
+      "destination": "/cloud/9.6.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.5.0.cl",
+      "destination": "/cloud/9.5.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.3.0.cl",
+      "destination": "/cloud/9.3.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/notes",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/accessibility",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/deprecation",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/release-lifecycle",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/ts-cloud-getting-started",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/ts-cloud-requirements-support",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/gcp",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.5.0.cl/time-series-forecasting",
+      "destination": "/cloud/10.5.0.cl/spotiq-forecasting",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.6.0.cl/time-series-forecasting",
+      "destination": "/cloud/10.6.0.cl/spotiq-forecasting",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.8.0.cl/time-series-forecasting",
+      "destination": "/cloud/10.8.0.cl/spotiq-forecasting",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/time-series-forecasting",
+      "destination": "/cloud/10.6.0.cl/spotiq-forecasting",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/connection-config",
+      "destination": "/cloud/10.8.0.cl/connections-snowflake-add#additional-configurations-create",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/monitor#alert-by-attribute",
+      "destination": "/cloud/latest/monitor-alert-attribute",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/monitor#create_an_anomaly_alert",
+      "destination": "/cloud/latest/monitor-alert-anomaly",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/monitor#threshold-based-alert",
+      "destination": "/cloud/latest/monitor-alert-threshold",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.12.5.cl/connection-config",
+      "destination": "/cloud/9.12.5.cl/connections-snowflake-add#additional-configurations-create/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.12.5.cl/table-join",
+      "destination": "/cloud/9.12.5.cl/tables-join#_new_join_interface",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/table-join",
+      "destination": "/cloud/10.8.0.cl/tables-join#_new_join_interface",
+      "statusCode": 301 },
+    {
+      "source": "/software/latest",
+      "destination": "/software/10.1.0.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/latest/",
+      "destination": "/software/10.1.0.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/10.1.0.sw",
+      "destination": "/software/10.1.0.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.8.0.sw",
+      "destination": "/software/9.8.0.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.5.0.sw",
+      "destination": "/software/9.5.0.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.0.1.sw",
+      "destination": "/software/9.0.1.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.8.1.sw",
+      "destination": "/software/8.8.1.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.4.1.sw",
+      "destination": "/software/8.4.1.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/7.2",
+      "destination": "/software/7.2/",
+      "statusCode": 301 },
+    {
+      "source": "/software/7.1",
+      "destination": "/software/7.1/",
+      "statusCode": 301 },
+    {
+      "source": "/software/7.0",
+      "destination": "/software/7.0/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.3",
+      "destination": "/software/6.3/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.2",
+      "destination": "/software/6.2/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.1",
+      "destination": "/software/6.1/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.0",
+      "destination": "/software/6.0/",
+      "statusCode": 301 },
+    {
+      "source": "/spotter/1.0.0.cp",
+      "destination": "/spotter/1.0.0.cp/",
+      "statusCode": 301 },
+    {
+      "source": "/blanknetworkconnect.png",
+      "destination": "/software/latest/_images/blanknetworkconnect.png",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/coming-soon-10-9-0-cl",
+      "destination": "/cloud/10.8.0.cl/coming-soon-10-8-0-cl",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/coming-soon-10-7-0-cl",
+      "destination": "/cloud/10.8.0.cl/coming-soon-10-8-0-cl",
+      "statusCode": 301 },
+    {
+      "source": "/8.4.1.sw.cu1/release/help-center",
+      "destination": "/software/8.4.1.sw/help-center",
+      "statusCode": 301 },
+    {
+      "source": "/9.3.0.cl/release/help-center",
+      "destination": "/cloud/9.3.0.cl/help-center",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.8.1.sw.cu1/:path*",
+      "destination": "/software/8.8.1.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/ghyer95y3/software/8.8.1.sw.cu1/",
+      "destination": "/ghyer95y3/software/8.8.1.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/latest/welcome-intro.html",
+      "destination": "/software/10.1.0.sw/deployment-sw",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/8.10.0.cl/upgrade",
+      "destination": "/cloud/10.6.0.cl/upgrade",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.8.0.sw/:path*",
+      "destination": "/software/10.1.0.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.5.0.sw.cu1/:path*",
+      "destination": "/software/9.5.0.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.0.1.sw.cu1/:path*",
+      "destination": "/software/9.0.1.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/software/7.1/help-center",
+      "destination": "/software/10.1.0.sw/help-center",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.8.1.sw.cu1/:path*",
+      "destination": "/software/8.8.1.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.8.1.sw.CU1/:path*",
+      "destination": "/software/8.8.1.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.4.1.sw.cu1/:path*",
+      "destination": "/software/8.4.1.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.4.1.sw.CU1/:path*",
+      "destination": "/software/8.4.1.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/conditional-formatting",
+      "destination": "/cloud/10.8.0.cl/search-conditional-formatting#advanced-conditional-formatting",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.4.1.sw.CU1/:path*",
+      "destination": "/software/8.4.1.sw/:path*",
+      "statusCode": 301 }
+  ],
+  "rewrites": [
+    {
+      "source": "/ghyer95y3/software/8.4.1.sw",
+      "destination": "https://help-software.vercel.app/software/8.4.1.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/8.4.1.sw.cu1",
+      "destination": "https://help-software.vercel.app/software/8.4.1.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/8.8.1.sw",
+      "destination": "https://help-software.vercel.app/software/8.8.1.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/9.0.1.sw",
+      "destination": "https://help-software.vercel.app/software/9.0.1.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/9.5.0.sw",
+      "destination": "https://help-software.vercel.app/software/9.5.0.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/9.8.0.sw",
+      "destination": "https://help-software.vercel.app/software/9.8.0.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/10.0.0.sw",
+      "destination": "https://help-software.vercel.app/software/10.0.0.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/10.1.0.sw",
+      "destination": "https://help-software.vercel.app/software/10.1.0.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/10.5.0.sw",
+      "destination": "https://help-cloud.vercel.app/software/10.5.0.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/11.0.0.sw",
+      "destination": "https://help-cloud.vercel.app/software/11.0.0.sw/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/8.9.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/8.9.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/8.10.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/8.10.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.0.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.0.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.1.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.1.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.2.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.2.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.3.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.3.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.4.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.4.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.5.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.5.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.6.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.6.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.7.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.7.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.8.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.8.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.9.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.9.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.10.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.10.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.10.5.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.10.5.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.12.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.12.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/9.12.5.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/9.12.5.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.0.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.0.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.1.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.1.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.2.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.2.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.3.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.3.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.4.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.4.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.5.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.5.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.6.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.6.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.7.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.6.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.8.0.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.8.0.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/10.8.1.cl",
+      "destination": "https://help-cloud.vercel.app/cloud/10.8.1.cl/index_help",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/sitemap-cloud.xml",
+      "destination": "https://help-cloud.vercel.app/sitemap-cloud.xml",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/sitemap-software.xml",
+      "destination": "https://help-software.vercel.app/sitemap-software.xml",
+      "statusCode": 200 },
+    {
+      "source": "/cloud/9.3.0.cl/:path*",
+      "destination": "https://9-3-0-cl-docs-archive.netlify.app/cloud/9.3.0.cl/:path*",
+      "statusCode": 200 },
+    {
+      "source": "/cloud/9.9.0.cl/:path*",
+      "destination": "https://ts-9-9-0-cl.netlify.app/cloud/9.9.0.cl/:path*",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/cloud/:path*",
+      "destination": "https://help-cloud.vercel.app/cloud/:path*",
+      "statusCode": 200 },
+    {
+      "source": "/ghyer95y3/software/:path*",
+      "destination": "https://help-software.vercel.app/software/:path*",
+      "statusCode": 200 }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src * 'unsafe-eval' 'unsafe-inline' data: filesystem: about: blob:;"
+        }
+      ]
+    }
+  ]
+}
