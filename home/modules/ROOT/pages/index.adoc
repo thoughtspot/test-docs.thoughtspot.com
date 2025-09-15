@@ -116,14 +116,14 @@ td {
 == {empty}
 ++++
 <div class="box-button-columns">
-  <div class="box-button"><a href="https://docs-test-thoughtspot.netlify.app/cloud/latest" class="panel-2">
+  <div class="box-button"><a href="https://test-docs-thoughtspot-com.vercel.app/cloud/latest" class="panel-2">
       <span><img src="_images/cloud.png" id="cloud-icon">
     <h2>
       Cloud
     </h2>
     <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
     </a></div>
-  <div class="box-button"><a href = "https://docs-test-thoughtspot.netlify.app/software/latest" class = "panel-2">
+  <div class="box-button"><a href = "https://test-docs-thoughtspot-com.vercel.app/software/latest" class = "panel-2">
   <img src="_images/software.png" id="software-icon">
   <h2>
     Software
