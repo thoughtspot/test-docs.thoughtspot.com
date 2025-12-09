@@ -12,7 +12,7 @@ content:
     branches: ['6.3']
     start_path: software/
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
-    branches: ['10.14.0.cl-ia']
+    branches: ['10.15.0.cl-ia']
     start_path: cloud/
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
     branches: ['seekwell']
