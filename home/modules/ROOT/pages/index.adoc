@@ -116,7 +116,7 @@ td {
 == {empty}
 ++++
 <div class="box-button-columns">
-  <div class="box-button"><a href="https://test-docs-thoughtspot-com.vercel.app/cloud/latest" class="panel-2">
+  <div class="box-button"><a href="https://test-docs-thoughtspot-com.vercel.app/cloud/10.15.0.cl/" class="panel-2">
       <span><img src="_images/cloud.png" id="cloud-icon">
     <h2>
       Cloud
