@@ -11,7 +11,7 @@
       "statusCode": 301 },
     {
       "source": "/cloud",
-      "destination": "/cloud/10.6.0.cl/",
+      "destination": "/cloud/26.5.0.cl/",
       "statusCode": 301 },
     {
       "source": "/cloud/10.9.0.cl/notes",
